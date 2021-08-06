@@ -3,9 +3,10 @@
 **Data Source:** Cardiotocography Data Set
 https://archive.ics.uci.edu/ml/datasets/cardiotocography
 
-On This Dataset Cardiotocograms (CTGs) are a simple and cost accessible option to assess fetal health, allowing healthcare professionals to take action in order to prevent child and maternal mortality.   
+### Problem Statement:
+Cardiotocography can be used to monitor a baby's heart rate and a mother's contractions while the baby is in the uterus. CTG is used both before birth and during labour, to monitor the baby for any signs of distress. By looking at various different aspects of the baby's heart rate, doctors can see the condition of a baby. The vast majority of these deaths (94%) occurred in low-resource settings, and most could have been prevented.   
 
-This dataset contains 2126 records of features extracted from Cardiotocogram exams, which were then classified by expert obstetrician into 3 classes:
+This dataset contains 2126 records of features extracted from CTG, which were then classified by experts into 3 classes:
 
 - Normal      
 - Suspect     
