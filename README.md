@@ -48,7 +48,7 @@ weighted avg       0.94      0.94      0.94       634
                                                             
 ---------------------------------------------------------------------------------------------------------------                                                                 
            
-### Features: 
+### Variable Description: 
 **Target variable:**                          
 'fetal_health' Tagged as 1 (Normal), 2 (Suspect) and 3 (Pathological)
 
