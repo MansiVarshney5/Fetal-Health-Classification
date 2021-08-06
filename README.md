@@ -9,15 +9,50 @@ This dataset contains 2126 records of features extracted from Cardiotocogram exa
 
 - Normal      
 - Suspect     
-- Pathological      
+- Pathological 
+
+![image](https://user-images.githubusercontent.com/81185267/128505711-8c452578-0f4e-4e1b-81fe-f9c50a7eb9de.png)
+    
 
 ### Machine Learning Models:
+- Logistic Regression (LR)
+- K-nearest neighbors (KNN)
+- SVC
+- Decision Tree
+- Random Forest (RF)
+
+********* Random Forest Results *********                      
+Accuracy    :  0.943              
+Recall      :  0.943              
+Precision   :  0.942          
+F1 Score    :  0.943            
+
+                precision    recall  f1-score   support
+
+         1.0       0.95      0.98      0.97       494
+         2.0       0.86      0.75      0.80        88
+         3.0       0.96      0.88      0.92        52
+    accuracy        -        -         0.94       634
+    
+   macro avg       0.92      0.87      0.90       634                        
+weighted avg       0.94      0.94      0.94       634                              
+
+
+
+
+![image](https://user-images.githubusercontent.com/81185267/128506647-c4562e63-5888-475b-941f-1045845d96f5.png)
+
+
 
       
-                                                                 
-                                                                         
-            
-**Features:**           
+                                                            
+---------------------------------------------------------------------------------------------------------------                                                                 
+           
+### Features: 
+**Target variable:**                          
+'fetal_health' Tagged as 1 (Normal), 2 (Suspect) and 3 (Pathological)
+
+**Independent variables:**                                  
 **baseline value:** FHR baseline (beats per minute)      
 **accelerations:** Number of accelerations per second      
 **fetal_movement:** Number of fetal movements per second       
@@ -40,5 +75,3 @@ This dataset contains 2126 records of features extracted from Cardiotocogram exa
 **histogram_variance:** Histogram variance                       
 **histogram_tendency:** Histogram tendency                       
 
-**Target variable:**                          
-'fetal_health' Tagged as 1 (Normal), 2 (Suspect) and 3 (Pathological)
